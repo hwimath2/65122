@@ -19,7 +19,7 @@
           "https://raw.githubusercontent.com/hwimath2/65122/main/1.png?raw=true"
         ],
         "passage": "",
-        "answer": "1",
+        "answer": "1", // 사용자님의 피드백 반영 (오류 수정)
         "type": "객관식",
         "score": 10
       },
@@ -144,17 +144,6 @@
         "score": 10
       },
       {
-        "id": 14,
-        "images": [
-          "https://raw.githubusercontent.com/hwimath2/65122/main/14.png?raw=true"
-        ],
-        "passage": "",
-        "answer": ["12.242424...", "1000", "990", "1212", "202/165"],
-        "type": "주관식",
-        "score": 10,
-        "placeholders": ["<a> 값", "<b> 값", "<c> 값", "<d> 값", "<e> 값"]
-      },
-      {
         "id": 15,
         "images": [
           "https://raw.githubusercontent.com/hwimath2/65122/main/15.png?raw=true"
@@ -171,10 +160,16 @@
           "https://raw.githubusercontent.com/hwimath2/65122/main/17.png?raw=true"
         ],
         "passage": "",
-        "answer": "-5/12xy^3",
-        "type": "주관식",
+        "answer": "1", // Converted to Multiple Choice
+        "type": "객관식", // Changed type
         "score": 10,
-        "placeholders": ["A÷B 계산 결과", "서술/과정X"]
+        "customOptions": [
+          "A: -15x^{3}y^{5}, B: 36x^{2}y^{2}, A \\div B: -{\\frac {5}{12}}xy^{3}", // Correct
+          "A: 15x^{3}y^{5}, B: 36x^{2}y^{2}, A \\div B: {\\frac {5}{12}}xy^{3}",  // Distractor 1 (Error in A sign)
+          "A: -15x^{3}y^{5}, B: 36x^{4}y^{4}, A \\div B: -{\\frac {5}{12}}x^{-1}y", // Distractor 2 (Error in B)
+          "A: -15x^{3}y^{5}, B: 36x^{2}y^{2}, A \\div B: -{\\frac {5}{12}}x^{5}y^{7}", // Distractor 3 (Error in A÷B)
+          "A: -15x^{2}y^{3}, B: 36x^{2}y^{2}, A \\div B: -{\\frac {5}{12}}y"     // Distractor 4 (Error in A)
+        ] // Changed option format
       },
       {
         "id": 18,
@@ -182,10 +177,10 @@
           "https://raw.githubusercontent.com/hwimath2/65122/main/18.png?raw=true"
         ],
         "passage": "",
-        "answer": "6x^2-2y^2",
-        "type": "주관식",
+        "answer": "1", // Converted to Multiple Choice
+        "type": "객관식", // Changed type
         "score": 10,
-        "placeholders": ["겉넓이 S 식"]
+        "customOptions": ["6x^{2}-2y^{2}", "6x^{2}+2y^{2}", "4x^{2}-2y^{2}", "4x^{2}", "2(x^2-y^2)"] // Added LaTeX options
       },
       {
         "id": 19,
